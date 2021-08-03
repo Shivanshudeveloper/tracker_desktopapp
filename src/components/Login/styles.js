@@ -9,7 +9,7 @@ export default makeStyles({
     margin: "10px auto",
     padding: "30px 0",
     borderRadius: "20px",
-    maxWidth: "30%",
+    minWidth: "30%",
   },
   image: {
     width: "40%",

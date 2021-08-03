@@ -23,7 +23,6 @@ export default makeStyles((theme) => ({
     alignItems: "center",
     margin: "10px auto",
     padding: "30px 0",
-    backgroundColor: "#ccccd5",
     borderRadius: "20px",
   },
   paperContainer: {
@@ -48,5 +47,7 @@ export default makeStyles((theme) => ({
   doughnut: {
     maxWidth: "300px",
     maxHeight: "300px",
+    margin: "0 auto",
+    marginBottom: "20px",
   },
 }));

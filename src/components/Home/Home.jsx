@@ -8,6 +8,7 @@ import {
   Select,
   Paper,
 } from "@material-ui/core";
+import Alert from "@material-ui/lab/Alert";
 import { Doughnut } from "react-chartjs-2";
 
 import useStyles from "./styles";
@@ -42,15 +43,9 @@ const Home = () => {
     <div style={{ padding: "20px" }}>
       <Typography variant="h4">All Activities</Typography>
       <div className={classes.mainContainer}>
-        <Doughnut data={chartData} className={classes.doughnut} />
         <Paper className={classes.paperContainer}>
-          <Button
-            variant="contained"
-            color="primary"
-            className={classes.activeButton}
-          >
-            Active
-          </Button>
+          <Doughnut data={chartData} className={classes.doughnut} />
+          <Alert severity="success">Active</Alert>
           <div className={classes.formDropdown}>
             <FormControl className={classes.formControl}>
               <InputLabel id="demo-simple-select-label">Project</InputLabel>

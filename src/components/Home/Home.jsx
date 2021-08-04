@@ -42,7 +42,18 @@ const Home = () => {
   const classes = useStyles();
   return (
     <div style={{ padding: "20px" }}>
-      <Typography variant="h4">All Activities</Typography>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        <Typography variant="h4">All Activities</Typography>
+        <Button color="primary" component={Link} to="/activities">
+          View Previous Activities
+        </Button>
+      </div>
       <div className={classes.mainContainer}>
         <Paper className={classes.paperContainer}>
           <Doughnut data={chartData} className={classes.doughnut} />

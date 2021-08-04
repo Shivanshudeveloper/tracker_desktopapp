@@ -3,18 +3,6 @@ import { makeStyles } from "@material-ui/core/styles";
 export default makeStyles((theme) => ({
   formControl: {
     minWidth: "45%",
-    //     "& .MuiFormLabel-root": {
-    //       color: "white",
-    //     },
-    //   },
-    //   MuiInputBase: {
-    //     root: {
-    //       "&.MuiInput-underline:before": {
-    //         transition:
-    //           "border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms",
-    //         borderBottom: "1px solid rgba(255, 255, 255, 0.7)",
-    //       },
-    //     },
   },
   mainContainer: {
     display: "flex",
@@ -23,7 +11,6 @@ export default makeStyles((theme) => ({
     alignItems: "center",
     margin: "10px auto",
     padding: "30px 0",
-    borderRadius: "20px",
   },
   paperContainer: {
     margin: "30px 0",

@@ -9,10 +9,10 @@ export default makeStyles({
     margin: "10px auto",
     padding: "30px 0",
     borderRadius: "20px",
-    minWidth: "30%",
+    maxWidth: "600px",
   },
   image: {
-    width: "40%",
+    width: "70%",
   },
   authContainer: {
     width: "70%",

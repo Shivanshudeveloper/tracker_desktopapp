@@ -8,6 +8,7 @@ import {
   Select,
   Paper,
 } from "@material-ui/core";
+import { Link } from "react-router-dom";
 import Alert from "@material-ui/lab/Alert";
 import { Doughnut } from "react-chartjs-2";
 
@@ -78,6 +79,8 @@ const Home = () => {
             variant="contained"
             color="secondary"
             className={classes.submitButton}
+            component={Link}
+            to="/activities"
           >
             Submit All Work
           </Button>

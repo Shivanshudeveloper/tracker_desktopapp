@@ -24,7 +24,7 @@ const Activities = () => {
   };
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div style={{ padding: "20px", flex: "1" }}>
       <Typography variant="h4">All Activities</Typography>
       <div className={classes.dateContainer}>
         <FormControl style={{ minWidth: "150px" }}>

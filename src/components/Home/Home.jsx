@@ -41,7 +41,7 @@ const chartData = {
 const Home = () => {
   const classes = useStyles();
   return (
-    <div style={{ padding: "20px" }}>
+    <div style={{ padding: "20px", flex: "1" }}>
       <div
         style={{
           display: "flex",

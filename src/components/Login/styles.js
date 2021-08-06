@@ -7,7 +7,6 @@ export default makeStyles({
     justifyContent: "center",
     alignItems: "center",
     margin: "10px auto",
-    padding: "30px 0",
     borderRadius: "20px",
     maxWidth: "600px",
   },

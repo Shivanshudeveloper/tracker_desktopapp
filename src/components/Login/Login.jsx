@@ -34,8 +34,12 @@ const Login = () => {
     event.preventDefault();
   };
 
+  const login = () => {
+    localStorage.setItem("user", "1234");
+  };
+
   return (
-    <div style={{ padding: "20px" }}>
+    <div style={{ padding: "20px", flex: "1" }}>
       <div className={classes.mainContainer}>
         <img
           src="https://res.cloudinary.com/dx9dnqzaj/image/upload/v1626147338/tracker/Tracktime_Icon_File_i3vsim.svg"
@@ -69,6 +73,7 @@ const Login = () => {
             />
           </FormControl>
           <Button
+            onClick={login}
             component={Link}
             to="/home"
             variant="contained"
